@@ -1,0 +1,11 @@
+function factorial(int n) -> int {
+    if (n < 10){
+        int a = 3;
+        print(n + 1);
+        print(a);
+        return 2;
+    }
+    return 1;
+}
+
+print(factorial(1));
